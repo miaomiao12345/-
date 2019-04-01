@@ -1,0 +1,46 @@
+.container1{
+  margin: 2% 2%;
+  padding: 2% 2%;
+  background-color: rgba(102, 204, 102, 0.1);
+}
+.weibo{
+  padding: 2% 1%;
+  height: 143px;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.weibo image{
+  width:100%;
+  height: 100%;
+  }
+
+  .container2{
+    margin: 2% 2%;
+    height: 250px;
+    background-color: rgba(200, 100, 100, 0.1);
+    display: -webkit-flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .gedan{
+    padding: 3% 3%;
+    width: 90%;
+  }
+  .songs{
+  padding: 3% 5%;
+  background:#ddd;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.songs text{
+  font-size:16px;
+  color: #666;
+  }
+.songs image{
+  width: 40px;
+  height: 40px;
+}

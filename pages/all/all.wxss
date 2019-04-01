@@ -1,0 +1,20 @@
+
+.songs{
+  padding: 3% 5%;
+  background:#ddd;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.songs text{
+  font-size:16px;
+  color: #666;
+  }
+.songs image{
+  width: 40px;
+  height: 40px;
+}
+.songs .xiamu{
+  font-size: 13px;
+}

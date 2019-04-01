@@ -1,0 +1,98 @@
+<!--weather.wxml-->
+<view class="container" bindtap='playMusic'>
+  <view class="songs">
+    <image src='all.jpg'></image>
+    <text>因为遇见你</text>
+    <image id="1" src="{{shifouplay[0]? '../../images/pause.png' : '../../images/play.png'}} "></image>
+  </view>
+   <view class="songs">
+    <image src='all.jpg'></image>
+    <text>最美的时光</text>
+    <image id="2" src="{{shifouplay[1]? '../../images/pause.png' : '../../images/play.png'}} "></image>
+  </view>
+   <view class="songs">
+    <image src='all.jpg'></image>
+    <text>长大以后的世界</text>
+    <image id="3" src="{{shifouplay[2]? '../../images/pause.png' : '../../images/play.png'}} "></image>
+  </view>
+   <view class="songs">
+    <image src='all.jpg'></image>
+    <text>阳光不锈</text>
+    <image id="4" src="{{shifouplay[3]? '../../images/pause.png' : '../../images/play.png'}} "></image>
+  </view>
+   <view class="songs">
+    <image src='all.jpg'></image>
+    <text>十七</text>
+    <image id="5" src="{{shifouplay[4]? '../../images/pause.png' : '../../images/play.png'}} "></image>
+  </view>
+   <view class="songs">
+    <image src='all.jpg'></image>
+    <text>Sleep</text>
+    <image id="6" src="{{shifouplay[5]? '../../images/pause.png' : '../../images/play.png'}} "></image>
+  </view>
+   <view class="songs">
+    <image src='all.jpg'></image>
+    <text>骄傲</text>
+    <image id="7" src="{{shifouplay[6]? '../../images/pause.png' : '../../images/play.png'}} "></image>
+  </view>
+   <view class="songs">
+    <image src='all.jpg'></image>
+    <text>宝贝</text>
+    <image id="8" src="{{shifouplay[7]? '../../images/pause.png' : '../../images/play.png'}} "></image>
+  </view>
+   <view class="songs">
+    <image src='all.jpg'></image>
+    <text>做我自己</text>
+    <image id="9" src="{{shifouplay[8]? '../../images/pause.png' : '../../images/play.png'}} "></image>
+  </view>
+   <view class="songs">
+    <image src='all.jpg'></image>
+    <text>The Wrong Things</text>
+    <image id="10" src="{{shifouplay[9]? '../../images/pause.png' : '../../images/play.png'}} "></image>
+  </view>
+   <view class="songs">
+    <image src='all.jpg'></image>
+    <text>Will You</text>
+    <image id="11" src="{{shifouplay[10]? '../../images/pause.png' : '../../images/play.png'}} "></image>
+  </view>
+   <view class="songs">
+    <image src='all.jpg'></image>
+    <text>一样</text>
+    <image id="12" src="{{shifouplay[11]? '../../images/pause.png' : '../../images/play.png'}} "></image>
+  </view>
+   <view class="songs">
+    <image src='all.jpg'></image>
+    <text>我的童年</text>
+    <image id="13" src="{{shifouplay[12]? '../../images/pause.png' : '../../images/play.png'}} "></image>
+  </view>
+   <view class="songs">
+    <image src='all.jpg'></image>
+    <text>孤注</text>
+    <image id="14" src="{{shifouplay[13]? '../../images/pause.png' : '../../images/play.png'}} "></image>
+  </view>
+   <view class="songs">
+    <image src='all.jpg'></image>
+    <text>天使</text>
+    <image id="15" src="{{shifouplay[14]? '../../images/pause.png' : '../../images/play.png'}} "></image>
+  </view>
+   <view class="songs">
+    <image src='all.jpg'></image>
+    <text>我不知道</text>
+    <image id="16" src="{{shifouplay[15]? '../../images/pause.png' : '../../images/play.png'}} "></image>
+  </view>
+   <view class="songs">
+    <image src='all.jpg'></image>
+    <text>长歌行</text>
+    <image id="17" src="{{shifouplay[16]? '../../images/pause.png' : '../../images/play.png'}} "></image>
+  </view>
+   <view class="songs">
+    <image src='all.jpg'></image>
+    <text class='xiamu'>只要有想见的人，就不是孤身一人</text>
+    <image id="18" src="{{shifouplay[17]? '../../images/pause.png' : '../../images/play.png'}} "></image>
+  </view>
+   <view class="songs">
+    <image src='all.jpg'></image>
+    <text>友谊地久天长</text>
+    <image id="19" src="{{shifouplay[18]? '../../images/pause.png' : '../../images/play.png'}} "></image>
+  </view>
+</view>

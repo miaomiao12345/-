@@ -1,0 +1,33 @@
+<!--weather.wxml-->
+<view class="container" bindtap='playMusic'>
+ <view class="songs">
+    <image src='coverup.png'></image>
+    <text>看得最远的地方</text>
+    <image id="1" src="{{shifouplay[0]? '../../images/pause.png' : '../../images/play.png'}} "></image>
+  </view>
+  <view class="songs">
+    <image src='coverup.png'></image>
+    <text>年少有为</text>
+    <image id="2" src="{{shifouplay[1]? '../../images/pause.png' : '../../images/play.png'}} "></image>
+  </view>
+  <view class="songs">
+    <image src='coverup.png'></image>
+    <text class='xiamu'>空白格</text>
+    <image id="3" src="{{shifouplay[2]? '../../images/pause.png' : '../../images/play.png'}} "></image>
+  </view>
+  <view class="songs">
+    <image src='coverup.png'></image>
+    <text class='xiamu'>傻子</text>
+    <image id="4" src="{{shifouplay[3]? '../../images/pause.png' : '../../images/play.png'}} "></image>
+  </view>
+  <view class="songs">
+    <image src='coverup.png'></image>
+    <text class='xiamu'>我要我们在一起</text>
+    <image id="5" src="{{shifouplay[4]? '../../images/pause.png' : '../../images/play.png'}} "></image>
+  </view>
+  <view class="songs">
+    <image src='coverup.png'></image>
+    <text>记得</text>
+    <image id="6" src="{{shifouplay[5]? '../../images/pause.png' : '../../images/play.png'}} "></image>
+  </view>
+</view>

@@ -1,0 +1,53 @@
+<!--weather.wxml-->
+<view class="container" bindtap='playMusic'>
+  <view class="songs">
+    <image src='roy.jpg'></image>
+    <text>因为遇见你</text>
+    <image id="1" src="{{shifouplay[0]? '../../images/pause.png' : '../../images/play.png'}} " value='1' ></image>
+  </view>
+   <view class="songs">
+    <image src='roy.jpg'></image>
+    <text>最美的时光</text>
+    <image id="2" src="{{shifouplay[1]? '../../images/pause.png' : '../../images/play.png'}} " value='2'></image>
+  </view>
+   <view class="songs">
+    <image src='roy.jpg'></image>
+    <text>阳光不锈</text>
+    <image id = "3" src="{{shifouplay[2]? '../../images/pause.png' : '../../images/play.png'}} " value='3'></image>
+  </view>
+   <view class="songs">
+    <image src='roy.jpg'></image>
+    <text>十七</text>
+    <image id="4" src="{{shifouplay[3]? '../../images/pause.png' : '../../images/play.png'}} " value='4'></image>
+  </view>
+   <view class="songs">
+    <image src='roy.jpg'></image>
+    <text>骄傲</text>
+    <image id="5" src="{{shifouplay[4]? '../../images/pause.png' : '../../images/play.png'}} " value='5'></image>
+  </view>
+   <view class="songs">
+    <image src='roy.jpg'></image>
+    <text>一样</text>
+    <image id="6" src="{{shifouplay[5]? '../../images/pause.png' : '../../images/play.png'}} " value='6'></image>
+  </view>
+   <view class="songs">
+    <image src='roy.jpg'></image>
+    <text>我的童年</text>
+    <image id="7" src="{{shifouplay[6]? '../../images/pause.png' : '../../images/play.png'}} " value='7'></image>
+  </view>
+   <view class="songs">
+    <image src='roy.jpg'></image>
+    <text>孤注</text>
+    <image id="8" src="{{shifouplay[7]? '../../images/pause.png' : '../../images/play.png'}} " value='8'></image>
+  </view>
+   <view class="songs">
+    <image src='roy.jpg'></image>
+    <text>天使</text>
+    <image id="9" src="{{shifouplay[8]? '../../images/pause.png' : '../../images/play.png'}} " value='9'></image>
+  </view>
+   <view class="songs">
+    <image src='roy.jpg'></image>
+    <text>我不知道</text>
+    <image id="10" src="{{shifouplay[9]? '../../images/pause.png' : '../../images/play.png'}} " value='10'></image>
+  </view>
+</view>

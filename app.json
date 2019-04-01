@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/wawy/wawy",
+    "pages/ROY/ROY",
+    "pages/all/all",
+    "pages/coverUp/coverUp",
+    "pages/weibo/weibo"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "成年meng虎",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#666",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#56abe4",
+    "backgroundColor": "#ddd",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath":"pages/wawy/wawy",
+        "iconPath":"images/tabbar/ROY.jpg",
+        "selectedIconPath":"images/tabbar/ROY.jpg",
+        "text":"唯爱王源"
+      },
+      {
+        "pagePath": "pages/ROY/ROY",
+        "iconPath": "images/tabbar/ROY.jpg",
+        "selectedIconPath": "images/tabbar/ROY.jpg",
+        "text": "优秀原创"
+      },
+      {
+        "pagePath": "pages/all/all",
+        "iconPath": "images/tabbar/all.png",
+        "selectedIconPath": "images/tabbar/all.png",
+        "text": "所有歌曲"
+      },
+      {
+        "pagePath": "pages/coverUp/coverUp",
+        "iconPath": "images/tabbar/coverUp.jpg",
+        "selectedIconPath": "images/tabbar/coverUp.jpg",
+        "text": "经典翻唱"
+      }
+    ],
+    "position": "bottom"
+  },
+  "sitemapLocation": "sitemap.json"
+}

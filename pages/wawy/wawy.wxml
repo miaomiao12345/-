@@ -1,3 +1,8 @@
+<view class='wawy'>
+  <view class='time'>
+  <text>现在是:{{time}}\t\t</text>
+  <text>今天是喜欢源哥的第{{num}}天</text>
+</view>
 <view class="container1">
  看看源哥又发了什么可爱微博ヾ(≧▽≦*)o
   <view class="weibo" bindtap='quweibo'>
@@ -9,3 +14,4 @@
   <view><image src='gedan.jpg' class='gedan'></image></view>
   
 </scroll-view>
+</view>
